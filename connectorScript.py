@@ -25,4 +25,4 @@ summary = summarizeText(file_content)
 print(summary)
 
 with open(current_time, "w") as f:
-    f.write("[Summary]\n \n" + str(summary) + "\n \n[Transcript] \n \n" + file_content)
+    f.write("[Summary]\n \n" + summary + "\n \n[Transcript] \n \n" + file_content)
