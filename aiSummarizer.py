@@ -15,5 +15,5 @@ def summarizeText(file_content):
 	    ],
 	    model="gpt-4o-mini",
 	)
-	print(chat_completion.choices[0].message.content)
+	return chat_completion.choices[0].message.content
 
