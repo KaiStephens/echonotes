@@ -10,6 +10,9 @@ __Python3 with pip installed is mandatory__
 
 [Usage](#Usage)
 
+[Install-with-local-whisper](#Install-with-local-whisper)
+
+
 ## Requirements
 
 You need to have Python3 with pip installed to run this on your machine
@@ -92,3 +95,6 @@ The lesson appears to focus on the concept of repetition, as the teacher emphasi
 
 Hello, this is a test. This is a test. This is a test. This is a test. I've said this is a test four times. This is a test.
 ```
+
+##Install-with-local-whisper
+
