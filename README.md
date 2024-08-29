@@ -8,11 +8,13 @@ You need to have Python3 with pip installed to run this on your machine
 
 The requirements for the basic installation are listed below:
 
+```python
 openai==1.42.0
 
 PyAudio==0.2.14
 
 pydub==0.25.1
+```
 
 You can either manually install them or use the command (after installtion):
 
