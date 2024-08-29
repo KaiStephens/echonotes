@@ -1,4 +1,4 @@
-# Header 1
+# echonotes - summarize lectures with AI
 ## Header 2
 ### Header 3
 
