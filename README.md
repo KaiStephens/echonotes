@@ -12,4 +12,4 @@ First off, clone the repo using:
 
 ```bash
 
-https://github.com/KaiStephens/echonotes
+git clone https://github.com/KaiStephens/echonotes
