@@ -8,6 +8,8 @@ __Python3 with pip installed is mandatory__
 
 [Basic installation](#Basic-installation)
 
+
+
 ## Requirements
 
 You need to have Python3 with pip installed to run this on your machine
@@ -49,6 +51,35 @@ while in the echonotes directory run:
 pip install -r requirements.txt
 ```
 to install the requirements with pip.
+
+
+
+## Usage
+
+While in the echonotes directory run
+
+```bash
+python3 connectorScript.py
+```
+
+If working correctly you should see something like this:
+
+```bash
+[kai@archlinux echonotes]$ python3 connectorScript.py
+ALSA lib pcm_dsnoop.c:567:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Recording... Press Enter to stop.
+```
+
+Once you are ready to stop your recording press **Enter** to stop
+
+It will than process the audio and summarize with ai. printing the AI summary.
+
+
 
 
 
