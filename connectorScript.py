@@ -25,5 +25,5 @@ elif isinstance(transcription, list):
 summary = summarizeText(file_content)
 print(summary)
 
-with open(f"{current_time}.txt", "w") as f:
+with open(f"recordings/{current_time}.txt", "w") as f:
     f.write("[Summary]\n\n" + summary + "\n\n[Transcript]\n\n" + file_content)
