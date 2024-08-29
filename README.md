@@ -4,6 +4,8 @@ When installing you can chose to use the OpenAI API to create a transcription, o
 
 ## Requirements
 
+You need to have Python3 with pip installed to run this on your machine
+
 The requirements for the basic installation are listed below:
 
 openai==1.42.0
@@ -13,7 +15,7 @@ pydub==0.25.1
 You can either manually install them or use the command (after installtion):
 
 ```bash
-asdasd
+pip install -r requirements.txt
 ```
 
 ## Basic installation
