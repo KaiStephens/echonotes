@@ -36,3 +36,15 @@ openAPIKey = "HERE"
 ```
 
 replace "HERE" with your openAI API key. 
+
+**Python3 with pip installed is mandatory**
+
+while in the echonotes directory run:
+
+```bash
+pip install -r requirements.txt
+```
+to install the requirements with pip.
+
+
+
