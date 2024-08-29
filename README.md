@@ -79,7 +79,7 @@ Once you are ready to stop your recording press **Enter** to stop
 
 It will than process the audio and summarize with ai. printing the AI summary.
 
-
+After the process is completed it will save a file with the current 
 
 
 
