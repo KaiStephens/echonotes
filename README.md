@@ -81,6 +81,8 @@ It will than process the audio and summarize with ai. printing the AI summary.
 
 After the process is completed it will save a file with the current %Y-%m-%d-%H-%M so your files are easily located. the file will contain somthing like this: 
 
+**This is all saved in the recordings folder**
+
 ```
 [Summary]
 
