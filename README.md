@@ -6,7 +6,7 @@ __Python3 with pip installed is mandatory__
 
 [Requirements](#Requirements)
 
-[Basic installation](#Basicinstallation)
+[Basic installation](#Basic-installation)
 
 ## Requirements
 
@@ -28,7 +28,7 @@ You can either manually install them or use the command (after installtion):
 pip install -r requirements.txt
 ```
 
-## Basic installation
+## Basic-installation
 
 First off, clone the repo using: 
 
