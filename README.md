@@ -8,7 +8,7 @@ __Python3 with pip installed is mandatory__
 
 [Basic installation](#Basic-installation)
 
-
+[Usage](#Usage)
 
 ## Requirements
 
