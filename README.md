@@ -29,4 +29,10 @@ First off, clone the repo using:
 ```bash
 git clone https://github.com/KaiStephens/echonotes
 ```
-Proceed into the 'echonotes' directory, edit apiInputs.py and replace 
+Proceed into the 'echonotes' directory, edit apiInputs.py
+
+```python
+openAPIKey = "HERE"
+```
+
+replace "HERE" with your openAI API key. 
