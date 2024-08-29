@@ -12,6 +12,7 @@ __Python3 with pip installed is mandatory__
 
 [Install-with-local-whisper](#Install-with-local-whisper)
 
+[Local-whisper-usage](#Local-whisper-usage)
 
 ## Requirements
 
@@ -105,8 +106,6 @@ It's also super simple to install.
 
 ### Install on Linux
 
-Install FFmpeg
-
 ```bash
 sudo pacman -S ffmpeg
 ```
@@ -124,3 +123,6 @@ pip install -U openai-whisper
 ```
 
 Now go through the [Basic installation](#Basic-installation) steps
+
+## Local-whisper-usage
+
