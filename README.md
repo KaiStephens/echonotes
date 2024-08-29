@@ -11,4 +11,5 @@ When installing you can chose to use the OpenAI API to create a transcription, o
 First off, clone the repo using: 
 
 ```bash
-`git clone `
+
+git clone 
