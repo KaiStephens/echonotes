@@ -4,12 +4,22 @@ When installing you can chose to use the OpenAI API to create a transcription, o
 
 ## Requirements
 
+The requirements for the basic installation are listed below:
 
+openai==1.42.0
+PyAudio==0.2.14
+pydub==0.25.1
+
+You can either manually install them or use the command (after installtion):
+
+```bash
+asdasd
+```
 
 ## Basic installation
 
 First off, clone the repo using: 
 
 ```bash
-
 git clone https://github.com/KaiStephens/echonotes
+```
