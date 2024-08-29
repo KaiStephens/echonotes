@@ -3,14 +3,11 @@ from openai import OpenAI
 from apiInputs import openAPIKey
 import io
 
-# Set your API key as an environment variable
 os.environ["OPENAI_API_KEY"] = openAPIKey
 
-# Initialize the client
 client = OpenAI()
 
 def transcribe_audio(audio_data):
-    # Create a file-like object from the audio data
     audio_file = io.BytesIO(audio_data)
     
     audio_file.name = "audio.wav"
