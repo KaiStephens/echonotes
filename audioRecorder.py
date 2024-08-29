@@ -5,8 +5,8 @@ import io
 from pydub import AudioSegment
 
 FORMAT = pyaudio.paInt16
-CHANNELS = 1  # Mono
-RATE = 22050  # Reduced sample rate
+CHANNELS = 1 
+RATE = 22050 
 CHUNK = 1024
 
 class AudioRecorder:
@@ -42,7 +42,6 @@ class AudioRecorder:
         self.audio.terminate()
 
     def get_mp3_data(self):
-        # First, create a WAV file in memory
         wav_buffer = io.BytesIO()
         with wave.open(wav_buffer, 'wb') as wf:
             wf.setnchannels(CHANNELS)
@@ -50,22 +49,20 @@ class AudioRecorder:
             wf.setframerate(RATE)
             wf.writeframes(b''.join(self.frames))
         
-        # Convert WAV to MP3 in memory
         wav_buffer.seek(0)
         audio = AudioSegment.from_wav(wav_buffer)
-        audio = audio.compress_dynamic_range()  # Apply some compression
+        audio = audio.compress_dynamic_range()
         
         mp3_buffer = io.BytesIO()
         audio.export(mp3_buffer, format="mp3", bitrate="64k")
         
         return mp3_buffer.getvalue()
 
-# Example usage:
 if __name__ == "__main__":
     recorder = AudioRecorder()
     print("Recording... Press Enter to stop.")
     recorder.start_recording()
-    input()  # Wait for Enter key
+    input()  
     recorder.stop_recording()
     
     mp3_data = recorder.get_mp3_data()
