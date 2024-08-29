@@ -59,7 +59,7 @@ to install the requirements with pip.
 While in the echonotes directory run
 
 ```bash
-python3 connectorScript.py
+python3 apiRun.py
 ```
 
 If working correctly you should see something like this:
