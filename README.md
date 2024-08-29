@@ -4,6 +4,9 @@ When installing you can chose to use the OpenAI API to create a transcription, o
 
 __Python3 with pip installed is mandatory__
 
+[Introduction](#introduction)
+
+
 ## Requirements
 
 You need to have Python3 with pip installed to run this on your machine
