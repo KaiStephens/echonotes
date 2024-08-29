@@ -79,7 +79,14 @@ Once you are ready to stop your recording press **Enter** to stop
 
 It will than process the audio and summarize with ai. printing the AI summary.
 
-After the process is completed it will save a file with the current 
+After the process is completed it will save a file with the current %Y-%m-%d-%H-%M so your files are easily located. the file will contain somthing like this: 
 
+```
+[Summary]
 
+The lesson appears to focus on the concept of repetition, as the teacher emphasizes the phrase "This is a test" multiple times. The repeated statement suggests it may be part of an exercise or demonstration intended to reinforce attention or illustrate a point, though the lack of additional context makes it hard to determine the specific educational objectives. Background sounds are noted but are not relevant to the main content.
 
+[Transcript]
+
+Hello, this is a test. This is a test. This is a test. This is a test. I've said this is a test four times. This is a test.
+```
