@@ -99,3 +99,28 @@ Hello, this is a test. This is a test. This is a test. This is a test. I've said
 
 ## Install-with-local-whisper
 
+To use this program locally you need to install whisper. I highly recommened running this locally because whisper from OpenAI starts to cost up to a dollar per transcription when the mp3 files are a couple of hours longs. The API also maxes out at 25 megabytes which in some cases is not enough, there compression already baked into this program but it might not be enough for longer lectures.
+
+It's also super simple to install.
+
+### Install on Linux
+
+Install FFmpeg
+
+```bash
+sudo pacman -S ffmpeg
+```
+
+### Debian based system
+
+```bash
+sudo apt install ffmpeg
+```
+
+Install the whisper package (~2gb for full installation of whisper and all dependancies)
+
+```bash
+pip install -U openai-whisper
+```
+
+Now go through the [Basic installation](#Basic-installation) steps
